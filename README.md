@@ -15,7 +15,9 @@ statistical_analysis.ipynb - Python notebook that utilizes helper functions to c
 data_subset_analysis.ipynb - Python notebook that utilizes helper functions to complete all the tasks in Part 4 (Data Subset Analysis)
 
 
+
 Data Files:
+
 cell_counts.db - SQLite database that is used to store the provided CSV data
 
 cell_frequencies.csv - CSV file that stores the summary table of the relative frequencies of each of the cell types for each sample
@@ -25,8 +27,10 @@ miraclib_response_analysis.png - Boxplot that compares the relative frequencies 
 miraclib_statistical_results.csv - CSV file that stores the results of the statistical testing done on the relative frequenceis of each cell type for responders and non-responders using miraclib
 
 
+
 Code Structure:
 For my code structure, I utilized a simple organization. All of the data is stored in a SQLite database. For all the tasks given, I then created a a function stored in helper_functions.py that would query the database for any data needed, and then I would use python libraries to analyze and visualize the data as needed. I then created seperate python notebooks for each of the tasks that were provided and called these functions from these notebooks. Depending on the format of the data, I would either leave the output within the notebook itself, or I stored in a seperate CSV or png file depending on its format. I decided on this simple organization predominantly due to the time constraints I faced during this technical assessment. Due to midterms and school homework, I was only able to dedicate 4 hours to complete this assessment, hence, I decided to keep the code organization simple and easy to follow.
+
 
 
 Database Schema and Reasoning:

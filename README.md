@@ -1,5 +1,7 @@
 File Descriptions:
 
+Note: All libraries required to run my python code are specified in the requirements.txt file.
+
 Python Files (Code predominantly written by Claude):
 
 load_data.py - Script that creates a database schema and initializes the database with data from the provided csv file
